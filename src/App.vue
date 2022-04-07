@@ -20,5 +20,16 @@ export default {
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
+  p{
+    margin: 0;
+  }
+  a{
+    text-decoration: none;
+    color: $my-text-color;
+  }
+  ul{
+    list-style: none;
+    margin: 0;
+  }
 }
 </style>
