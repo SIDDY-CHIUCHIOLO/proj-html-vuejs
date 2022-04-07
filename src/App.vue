@@ -25,7 +25,7 @@ export default {
   }
   a{
     text-decoration: none;
-    color: $my-text-color;
+    color: $my-color-grey;
   }
   ul{
     list-style: none;
