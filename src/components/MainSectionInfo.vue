@@ -6,7 +6,7 @@
                 <div class="col">
                     <div class="my-card bg-white">
                         <i class="fas fa-user-friends"></i>
-                        <h5 class="card-title fw-bold mb-3 text-dark">Human Capital</h5>
+                        <h5 class="card-title mb-3 text-dark">Human Capital</h5>
                         <p class="card-text">Humanizing business: Hearness the power of technology to improve the way people work.</p>
                     </div>
                 </div>
@@ -14,7 +14,7 @@
                 <div class="col">
                     <div class="my-card bg-white">
                         <i class="fas fa-chart-pie"></i>
-                        <h5 class="card-title fw-bold mb-3 text-dark">Core Business</h5>
+                        <h5 class="card-title mb-3 text-dark">Core Business</h5>
                         <p class="card-text">It takes innovative approaches to taransform, modernize, and run existing platform.</p>
                     </div>
                 </div>

@@ -9,6 +9,10 @@
     height: 90vh;
 }
 
+.my-height-80vh{
+    height: 80vh;
+}
+
 .my-full-height{
     height: 100%;
 }
@@ -18,6 +22,21 @@
     border-radius: 0.25rem;
 }
 
+.my-text-green{
+    color: $my-color-blue-lagoon;
+}
+
+.my-bg-grey{
+    background-color:  $my-color-gray-nurse;
+    border-radius: 0.25rem;
+}
+
 .my-button-bg-green{
     background-color: $my-color-blue-lagoon;
+}
+
+.my-title-span-green{
+    color: $my-color-blue-lagoon;
+    font-size: 12px;
+    font-weight: 900;
 }

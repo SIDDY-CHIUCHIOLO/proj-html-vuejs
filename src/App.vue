@@ -28,6 +28,9 @@ export default {
   p{
     margin: 0;
   }
+  h1, h2, h3, h4, h5{
+    font-weight: bold;
+  }
   a{
     text-decoration: none;
     color: $my-color-edward;
