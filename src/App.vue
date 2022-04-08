@@ -24,12 +24,13 @@ export default {
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
+  color: $my-color-edward;
   p{
     margin: 0;
   }
   a{
     text-decoration: none;
-    color: $my-color-grey;
+    color: $my-color-edward;
   }
   ul{
     list-style: none;
@@ -38,8 +39,8 @@ export default {
   button{
     color: white;
     padding: 10px 25px;
-    border:  #058283 solid 2px;
-    border-radius: 3px;
+    border:  $my-color-blue-lagoon solid 2px;
+    border-radius: 0.25rem;
   }
   .my-card{
     padding: 30px;

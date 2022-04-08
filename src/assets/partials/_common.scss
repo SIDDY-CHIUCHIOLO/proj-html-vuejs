@@ -1,26 +1,23 @@
+@import "_variables.scss";
 
 .my-container{
     width: 65%;
     margin: 0 auto;
 }
 
-.my-text-lightgrey{
-    color: #c0c3d0;
-}
-
-
-.my-height{
+.my-height-90vh{
     height: 90vh;
 }
 
-.my-text-green{
-    color: #02a2a2;
+.my-full-height{
+    height: 100%;
 }
 
 .my-bg-opacity-green{
-    background-color: rgba(2, 162, 162, 0.3);
+    background-color: $my-color-surfie-green-opacity;
+    border-radius: 0.25rem;
 }
 
 .my-button-bg-green{
-    background-color: #058283;
+    background-color: $my-color-blue-lagoon;
 }

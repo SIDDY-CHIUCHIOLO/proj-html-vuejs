@@ -1,13 +1,13 @@
 <template>
-<div id="my-header-jumbotron" class="my-height">
-    <div class="my-opacity-container my-height w-100">
-        <div class="my-container my-height position-relative">
+<div id="my-header-jumbotron" class="my-height-90vh">
+    <div class="my-opacity-container my-full-height w-100">
+        <div class="my-container my-full-height position-relative">
 
             <!-- navbar con i link -->
             <div class="row text-white">
                 <div class="col-12">
                     <nav class="mt-4 d-flex justify-content-between">
-                        <h5 class="fw-bold"><span class="my-text-green my-bg-opacity-green">N E X</span> G E N</h5>
+                        <img class="my-full-height" src="../assets/img/logo.svg" alt="logo nexgen"> 
                         <ul class="d-flex align-items-center">
                             <li v-for="(element, index) in listHeaderNavLink" :key="index" class="me-4">
                                 <a :href="element.link">
@@ -23,7 +23,7 @@
             <!-- titolo del jumbotron -->
             <div class="row text-center text-white title-jumbotron d-flex justify-content-center w-100">
                 <div class="col-7">
-                    <h1 class="fw-bold">Lead ~ <span class="my-bg-opacity-green p-2">Customer</span></h1>
+                    <h1 class="fw-bold mb-4">Lead ~ <span class="my-bg-opacity-green p-2">Customer</span></h1>
                     <p class="mb-4 my-text-lightgrey">Successful strategies require data analysis, creativity and customer focus, taking advantage of the latest technologies to offer excellent services.</p>
                     <button class="my-button-bg-green me-4">GET IN TOUCH</button>
                     <button class="bg-transparent">READ MORE</button>
@@ -71,18 +71,15 @@ export default {
 @import 'src/assets/style.scss';
 
     #my-header-jumbotron{
-        background-image: url('@/assets/img/hero-image.png');
+        background-image: url('../assets/img/hero-image.png');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
         div.my-opacity-container{
             background-color: rgba(0, 0, 0, 0.7) ;
             div.row{
-                h5{
-                    span{
-                        border-radius: 50px 0 0 50px;
-                        padding: 13px 3px 13px 40px;
-                    }
+                nav{
+                    height: 8vh;
                 }
             }
             div.row.title-jumbotron{

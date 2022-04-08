@@ -2,7 +2,7 @@
     <div>
         <header class="d-flex align-items-center">
             <div class="my-container">
-                <div class="row justify-content-between my-text-lightgrey align-items-center">
+                <div class="row justify-content-between align-items-center">
 
                     <!-- orari di apertura -->
                     <div class="col-6">
@@ -71,8 +71,10 @@ export default {
 </script>
 
 <style  lang="scss" scoped>
+@import 'src/assets/style.scss';
+
     header{
-        background-color: #21333e;
+        background-color: $my-color-ebony-clay;
         height: 10vh;
     }
 </style>
