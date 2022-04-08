@@ -25,7 +25,9 @@
                 </div>
             </div>
         </header>
+
         <HeaderJumbotron/>
+
     </div>
 </template>
 

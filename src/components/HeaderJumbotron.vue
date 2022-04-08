@@ -1,31 +1,35 @@
 <template>
 <div id="my-header-jumbotron" class="my-height">
     <div class="my-opacity-container my-height w-100">
-        <div class="my-container">
+        <div class="my-container my-height position-relative">
+
+            <!-- navbar con i link -->
             <div class="row text-white">
                 <div class="col-12">
-
-                    <!-- navbar con i link -->
-                    <nav class="my-4 d-flex justify-content-between">
-                        <h5 class="fw-bold"><span class="my-bg-text-green">N E X</span> G E N</h5>
+                    <nav class="mt-4 d-flex justify-content-between">
+                        <h5 class="fw-bold"><span class="my-text-green my-bg-opacity-green">N E X</span> G E N</h5>
                         <ul class="d-flex align-items-center">
                             <li v-for="(element, index) in listHeaderNavLink" :key="index" class="me-4">
                                 <a :href="element.link">
                                     <span>{{element.text}}</span>
                                 </a>
                             </li>
-                            <button class="btn text-white py-2 px-3">GET IN TOUCH</button>
+                            <button class="my-button-bg-green">GET IN TOUCH</button>
                         </ul>
                     </nav>
+                </div>
+            </div>
 
-                </div>
-            </div>
-            <div class="row text-center text-white d-flex justify-content-center">
+            <!-- titolo del jumbotron -->
+            <div class="row text-center text-white title-jumbotron d-flex justify-content-center w-100">
                 <div class="col-7">
-                    <h1 class="fw-bold">Lead ~ Customer</h1>
-                    <p>successful strategies require data analysis, creativity and customer focus, taking advantage of the latest technologies to offer excellent services.</p>
+                    <h1 class="fw-bold">Lead ~ <span class="my-bg-opacity-green p-2">Customer</span></h1>
+                    <p class="mb-4 my-text-lightgrey">Successful strategies require data analysis, creativity and customer focus, taking advantage of the latest technologies to offer excellent services.</p>
+                    <button class="my-button-bg-green me-4">GET IN TOUCH</button>
+                    <button class="bg-transparent">READ MORE</button>
                 </div>
             </div>
+            
         </div>
     </div>
 </div>
@@ -73,16 +77,19 @@ export default {
         background-position: center;
         div.my-opacity-container{
             background-color: rgba(0, 0, 0, 0.7) ;
-            h5{
-                span{
-                    border-radius: 50px 0 0 50px;
-                    padding: 13px 3px 13px 40px;
+            div.row{
+                h5{
+                    span{
+                        border-radius: 50px 0 0 50px;
+                        padding: 13px 3px 13px 40px;
+                    }
                 }
             }
-            ul{
-                button{
-                    background-color: #058283;
-                }
+            div.row.title-jumbotron{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
             }
         }
     }
