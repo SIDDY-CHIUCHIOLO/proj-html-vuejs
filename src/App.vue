@@ -38,6 +38,7 @@ export default {
   ul{
     list-style: none;
     margin: 0;
+    padding: 0;
   }
   button{
     color: white;
@@ -48,6 +49,11 @@ export default {
   .my-card{
     padding: 30px;
     border-radius: 0.5rem;
+    i{
+      color: $my-color-blue-lagoon;
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+    }
   }
 }
 </style>

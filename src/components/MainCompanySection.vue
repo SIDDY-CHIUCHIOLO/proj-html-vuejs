@@ -9,7 +9,7 @@
                 </div>
             </div>
 
-            <div class="row w-50 row-cols-2 mb-3">
+            <div class="row w-50 row-cols-2 mb-5">
                 <div class="col">
                     <i class="fas fa-medal my-text-green"></i>
                     <h5 class="text-dark d-inline">Tradition</h5>
@@ -44,7 +44,7 @@
 
 <script>
 export default {
-    name: 'indexMainSectionCompany'
+    name: 'indexMainCompanySection'
 }
 </script>
 

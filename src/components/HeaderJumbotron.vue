@@ -14,7 +14,7 @@
                                     <span>{{element.text}}</span>
                                 </a>
                             </li>
-                            <button class="my-button-bg-green">GET IN TOUCH</button>
+                            <button class="my-bg-green">GET IN TOUCH</button>
                         </ul>
                     </nav>
                 </div>
@@ -25,7 +25,7 @@
                 <div class="col-7">
                     <h1 class="fw-bold mb-4">Lead ~ <span class="my-bg-opacity-green p-2">Customer</span></h1>
                     <p class="mb-4 my-text-lightgrey">Successful strategies require data analysis, creativity and customer focus, taking advantage of the latest technologies to offer excellent services.</p>
-                    <button class="my-button-bg-green me-4">GET IN TOUCH</button>
+                    <button class="my-bg-green me-4">GET IN TOUCH</button>
                     <button class="bg-transparent">READ MORE</button>
                 </div>
             </div>

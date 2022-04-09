@@ -1,20 +1,27 @@
 <template>
     <div>
-        <MainSectionInfo/>
-        <MainSectionCompany/>
+        <MainInfoSection/>
+        <MainCompanySection/>
+        <MainServicesSection/>
+        <MainPricingSection/>
     </div>
 </template>
 
 <script>
-import MainSectionInfo from './MainSectionInfo.vue'
-import MainSectionCompany from './MainSectionCompany.vue'
+import MainInfoSection from './MainInfoSection.vue'
+import MainCompanySection from './MainCompanySection.vue'
+import MainServicesSection from './MainServicesSection.vue'
+import MainPricingSection from './MainPricingSection.vue.vue'
+
 
 
 export default {
     name: 'indexMain',
     components:{
-        MainSectionInfo,
-        MainSectionCompany
+        MainInfoSection,
+        MainCompanySection,
+        MainServicesSection,
+        MainPricingSection
     }
 }
 </script>

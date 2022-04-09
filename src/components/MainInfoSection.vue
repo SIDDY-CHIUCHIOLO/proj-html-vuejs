@@ -35,7 +35,7 @@
 <script>
 
 export default {
-    name:'indexMainSectionInfo'
+    name:'indexMainInfoSection'
 }
 </script>
 
@@ -44,15 +44,13 @@ export default {
 
 section{
     background-color: $my-color-gray-nurse;
-    height: 50vh;
+    height: 60vh;
     width: 100%;
     i{
         color: $my-color-blue-lagoon;
         background-color: $my-color-gray-nurse;
         border-radius: 50%;
         padding: 12px 10px;
-        margin-bottom: 1rem;
-        font-size: 1.5rem;
     }
 }
 </style>
