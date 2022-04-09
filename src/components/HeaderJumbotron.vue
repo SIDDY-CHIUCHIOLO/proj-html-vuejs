@@ -1,5 +1,6 @@
 <template>
 <div id="my-header-jumbotron" class="my-height-90vh">
+    <!-- opacity -->
     <div class="my-opacity-container my-full-height w-100">
         <div class="my-container my-full-height position-relative">
 
@@ -75,8 +76,7 @@ export default {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        div.my-opacity-container{
-            background-color: rgba(0, 0, 0, 0.7) ;
+        div{
             div.row{
                 nav{
                     height: 8vh;

@@ -4,6 +4,7 @@
         <MainCompanySection/>
         <MainServicesSection/>
         <MainPricingSection/>
+        <MainNewsSection/>
     </div>
 </template>
 
@@ -12,6 +13,8 @@ import MainInfoSection from './MainInfoSection.vue'
 import MainCompanySection from './MainCompanySection.vue'
 import MainServicesSection from './MainServicesSection.vue'
 import MainPricingSection from './MainPricingSection.vue.vue'
+import MainNewsSection from './MainNewsSection.vue'
+
 
 
 
@@ -21,7 +24,8 @@ export default {
         MainInfoSection,
         MainCompanySection,
         MainServicesSection,
-        MainPricingSection
+        MainPricingSection,
+        MainNewsSection
     }
 }
 </script>
