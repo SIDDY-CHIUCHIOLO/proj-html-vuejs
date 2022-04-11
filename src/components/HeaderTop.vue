@@ -62,6 +62,7 @@ export default {
 
 <style  lang="scss" scoped>
 @import 'src/assets/style.scss';
+
     #header-top{
         background-color: $my-color-ebony-clay;
         height: 10vh;

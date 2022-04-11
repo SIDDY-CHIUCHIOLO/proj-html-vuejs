@@ -34,7 +34,7 @@ export default {
 }
 </script>
 
-<style lang="scss" >
+<style lang="scss">
 @import 'src/assets/style.scss';
 
 i{
