@@ -89,6 +89,13 @@ export default {
                 left: 50%;
                 transform: translate(-50%, -50%);
             }
+            button.my-bg-green:hover{
+                transition: background-color, border;
+                transition-duration: 0.5s;
+                border:  $my-color-green-hover solid 2px;
+                border-radius: 0.25rem;
+                background-color:$my-color-green-hover;
+            }
         }
     }
 </style>

@@ -45,5 +45,9 @@ export default {
 section{
     background-color: $my-color-gray-nurse;
     width: 100%;
+    div.my-card:hover{
+        transform: translate(-0, -5%);
+        transition-duration: 1s;
+    }
 }
 </style>

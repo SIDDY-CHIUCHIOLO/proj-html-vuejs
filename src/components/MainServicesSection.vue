@@ -96,5 +96,9 @@ export default {
                 color: white;
             }
         }
+        .my-card:hover{
+            transform: translate(-0, -5%);
+            transition-duration: 1s;
+        }
     }
 </style>

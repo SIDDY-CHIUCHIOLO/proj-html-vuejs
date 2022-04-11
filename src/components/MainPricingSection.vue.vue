@@ -149,6 +149,10 @@ export default {
 
     section{
         background-color: $my-color-gray-nurse;
+        div.my-card:hover{
+            transform: translate(-0, -5%);
+            transition-duration: 1s;
+        }
         .most-popular-offer {
             position: absolute;
             background-color:  $my-color-blue-lagoon;
