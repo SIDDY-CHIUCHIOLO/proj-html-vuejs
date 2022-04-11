@@ -1,6 +1,8 @@
 <template>
     <section class="d-flex position-relative align-items-center">
         <div class="my-container">
+
+            <!-- riga con titolo della sezione company -->
             <div class="row w-50">
                 <div class="col-12">
                     <span class="my-title-span-green">ABOUT THE NETWORK</span>
@@ -9,13 +11,17 @@
                 </div>
             </div>
 
+            <!--riga con 2 colonne -->
             <div class="row w-50 row-cols-2 mb-5">
+
+                <!-- tradition -->
                 <div class="col">
                     <i class="fas fa-medal my-text-green"></i>
                     <h5 class="text-dark d-inline">Tradition</h5>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                 </div>
 
+                <!-- Security -->
                 <div class="col">
                     <i class="fas fa-lock"></i>
                     <h5 class="text-dark d-inline">Security</h5>
@@ -23,21 +29,26 @@
                 </div>
             </div>
 
+            <!--riga con 2 colonne -->
             <div class="row w-50 row-cols-2">
+
+                <!-- Certificate -->
                 <div class="col">
                     <i class="far fa-edit"></i>
                     <h5 class="text-dark d-inline">Certificate</h5>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                 </div>
 
+                <!-- Expertise -->
                 <div class="col">
                     <i class="fas fa-brain"></i>
                     <h5 class="text-dark d-inline">Expertise</h5>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                 </div>
             </div>
-
         </div>
+
+        <!-- contenitore immagine della sezione company -->
         <div class="w-50 my-full-height contain-img-company position-absolute"></div>
     </section>
 </template>

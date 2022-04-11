@@ -2,7 +2,7 @@
     <section>
         <div class="my-container">
 
-            <!-- titolo della sezione -->
+            <!-- titolo della sezione services-->
             <div class="row">
                 <div class="col-12">
                     <span class="my-title-span-green">OUR BUSINESS AREAS</span>
@@ -16,8 +16,10 @@
                 </div>
             </div>
 
-            <!-- card della  sezione -->
+            <!-- riga con le card -->
             <div class="row row-cols-3 mb-4">
+
+                <!-- card Audit & Assurance -->
                 <div class="col">
                     <div class="my-card">
                         <i class="fas fa-sitemap"></i>
@@ -27,6 +29,7 @@
                     </div>
                 </div>
 
+                <!-- card Financial Advisory -->
                 <div class="col">
                     <div class="my-card">
                         <i class="fas fa-briefcase"></i>
@@ -36,6 +39,7 @@
                     </div>
                 </div>
 
+                <!-- card Analytics and M&A -->
                 <div class="col">
                     <div class="my-card">
                         <i class="far fa-chart-bar"></i>
@@ -46,8 +50,10 @@
                 </div>
             </div>
 
-            <!-- card della sezione -->
+            <!-- seconda riga con le card -->
             <div class="row row-cols-3">
+
+                <!-- card Middle Marketing -->
                 <div class="col">
                     <div class="my-card">
                         <i class="fas fa-plane"></i>
@@ -57,6 +63,7 @@
                     </div>
                 </div>
 
+                <!-- card Legal Consulting -->
                 <div class="col">
                     <div class="my-card">
                         <i class="fas fa-globe"></i>
@@ -65,7 +72,8 @@
                         <button class="bg-transparent">READ MORE</button>
                     </div>
                 </div>
-
+                
+                <!-- card Regulatory Risk -->
                 <div class="col">
                     <div class="my-card">
                         <i class="fas fa-bars"></i>

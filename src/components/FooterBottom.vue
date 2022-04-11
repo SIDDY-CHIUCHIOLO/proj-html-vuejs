@@ -1,6 +1,8 @@
 <template>
     <div id="footer-bottom" class="py-5 position-relative">
         <div class="my-container">
+
+            <!-- riga della sezione footer bottom -->
             <div class="row row-cols-2">
                 <div class="col">
                     <p class="text-center">Enjoy the low price. We are tracking any intention of piracy</p>
@@ -11,7 +13,8 @@
                 </div>
             </div>
         </div>
-        <!-- freccia su del footer -->
+
+        <!-- icona freccia su del footer -->
         <div class="text-end arrow-up">
             <a href="#">
                 <i class="fas fa-arrow-up"></i>

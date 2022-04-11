@@ -47,15 +47,22 @@ export default {
     padding: 0.8rem 0.8rem;
     border-radius: 0.2rem;
   }
-  ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
   button{
     padding: 10px 25px;
     border:  $my-color-blue-lagoon solid 2px;
     border-radius: 0.25rem;
+  }
+  button:hover{
+      transition: background-color, border;
+      transition-duration: 0.5s;
+      border:  $my-color-green-hover solid 2px;
+      border-radius: 0.25rem;
+      background-color:$my-color-green-hover;
+  }
+  ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
   .my-card{
     padding: 30px;

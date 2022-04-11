@@ -1,6 +1,6 @@
 <template>
 <div id="my-header-jumbotron">
-    <!-- opacity -->
+    <!-- opacity del background -->
     <div class="my-opacity-container my-full-height w-100">
         <div class="my-container my-full-height position-relative">
 
@@ -77,7 +77,7 @@ export default {
         background-repeat: no-repeat;
         background-position: center;
         height: 90vh;
-        div{
+        div.my-container{
             div.row{
                 nav{
                     height: 8vh;
@@ -88,13 +88,6 @@ export default {
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%, -50%);
-            }
-            button.my-bg-green:hover{
-                transition: background-color, border;
-                transition-duration: 0.5s;
-                border:  $my-color-green-hover solid 2px;
-                border-radius: 0.25rem;
-                background-color:$my-color-green-hover;
             }
         }
     }

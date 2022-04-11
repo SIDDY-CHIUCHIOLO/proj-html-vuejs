@@ -1,6 +1,8 @@
 <template>
     <section id="footer-top">
         <div class="my-container">
+
+            <!-- riga della sezione footer top -->
             <div class="row row-cols-4">
 
                 <!-- colonna con i conntatti -->
@@ -18,7 +20,7 @@
                     <button class="bg-transparent text-white">GET IN TOUCH</button>
                 </div>
 
-                <!-- colonna link about -->
+                <!-- card link about -->
                 <div class="col">
                     <div class="my-card">
                         <h5 class="card-title mb-3 text-white">About</h5>
@@ -33,7 +35,7 @@
                     </div>
                 </div>
 
-                <!-- colonna link services -->
+                <!-- card link services -->
                 <div class="col">
                     <div class="my-card">
                         <h5 class="card-title mb-3 text-white">Services</h5>
@@ -48,7 +50,7 @@
                     </div>
                 </div>
 
-                <!-- colonna link support -->
+                <!-- card link support -->
                 <div class="col">
                     <div class="my-card">
                         <h5 class="card-title mb-3 text-white">Support</h5>
@@ -173,7 +175,7 @@ export default {
 }
 </script>
 
-<style lang="scss" >
+<style lang="scss" scoped>
 @import 'src/assets/style.scss';
 
 section#footer-top{

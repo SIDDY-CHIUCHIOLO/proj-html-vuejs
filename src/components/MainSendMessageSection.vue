@@ -1,13 +1,18 @@
 <template>
     <section>
         <div class="my-container">
+            
+            <!-- riga della sezione send a message -->
             <div class="row">
-
-                <!-- colonna con gli input -->
+                <!-- colonna con gli input e titolo-->
                 <div class="col-8">
+
+                    <!-- titolo -->
                     <span class="my-title-span-green">SEND A MESSAGE</span>
                     <h1 class="my-4 text-dark">Get in<span class="my-bg-opacity-green my-text-green p-2 ms-1">Touch</span></h1>
                     <p class="mb-4">We will responsed to your message as soon as possible.</p>
+
+                    <!-- input -->
                     <div class="w-100 d-flex mb-2">
                         <input class="w-50 me-2" type="text" placeholder="Name">
                         <input class="w-50" type="text" placeholder="Email">
@@ -24,7 +29,7 @@
                     </div>
                 </div>
 
-                <!-- colonna con exemple -->
+                <!-- colonna con exemple inc -->
                 <div class="col-4 ps-4">
                     <h5 class="text-dark">Example Inc:</h5>
                     <p class="my-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>

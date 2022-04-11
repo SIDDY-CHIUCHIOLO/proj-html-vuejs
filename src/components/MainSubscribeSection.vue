@@ -3,14 +3,14 @@
         <div class="my-container">
             <div class="row row-cols-2">
 
-                <!-- titolo della sezione -->
+                <!-- titolo della sezione subscribe-->
                 <div class="col">
                     <span class="my-title-span-green">NEWSLETTER</span>
                     <h1 class="my-4 text-white"><span class="my-bg-opacity-green text-white p-2 me-1">Know</span>Fist</h1>
                     <p>Follow closly and receive content about our company and the news of the current market.</p>
                 </div>
 
-                <!-- iput della sezione -->
+                <!-- iput della sezione subscribe-->
                 <div class="col">
                     <div class="d-flex flex-column justify-content-between my-full-height">
                         <input class="w-100" type="text" placeholder="Name">

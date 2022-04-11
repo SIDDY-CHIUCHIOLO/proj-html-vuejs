@@ -1,7 +1,8 @@
 <template>
     <section>
         <div class="my-container">
-            <!-- titolo della sezione -->
+
+            <!-- titolo della sezione Pricing -->
             <div class="row text-center justify-content-center">
                 <div class="col-8">
                     <span class="my-title-span-green">MONTHLY PLANS</span>
@@ -9,9 +10,11 @@
                     <p class="mb-5">We can help deliver and  excute your future, wherever you complete, using the latest technologies, from strategy development to implementation.</p>
                 </div>
             </div>
+
+            <!-- riga con le cards -->
             <div class="row row-cols-3 align-items-center">
 
-                <!-- offerta standard -->
+                <!-- card standard -->
                 <div class="col">
                     <div class="my-card bg-white text-center">
                         <i class="fas fa-rocket fs-1"></i>
@@ -26,7 +29,7 @@
                     </div>
                 </div>
 
-                <!-- offerta professional -->
+                <!-- card professional -->
                 <div class="col">
                     <div class="my-card bg-white text-center position-relative py-5">
 
@@ -48,7 +51,7 @@
                 </div>
 
                 
-                <!-- offerta ultimate -->
+                <!-- card ultimate -->
                 <div class="col">
                     <div class="my-card bg-white text-center">
                         <i class="far fa-gem fs-1"></i>

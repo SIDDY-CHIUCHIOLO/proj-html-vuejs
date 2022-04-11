@@ -3,6 +3,7 @@
         <div class="my-container">
             <div class="row row-cols-3">
 
+                <!-- card human -->
                 <div class="col">
                     <div class="my-card bg-white">
                         <i class="fas fa-user-friends my-icon-green"></i>
@@ -11,6 +12,7 @@
                     </div>
                 </div>
 
+                <!-- card core -->
                 <div class="col">
                     <div class="my-card bg-white">
                         <i class="fas fa-chart-pie my-icon-green"></i>
@@ -19,6 +21,7 @@
                     </div>
                 </div>
 
+                <!-- card performance -->
                 <div class="col">
                     <div class="my-card bg-white">
                         <i class="fas fa-tachometer-alt my-icon-green"></i>

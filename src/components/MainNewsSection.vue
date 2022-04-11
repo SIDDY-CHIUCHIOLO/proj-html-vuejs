@@ -2,7 +2,7 @@
     <section>
         <div class="my-container">
 
-            <!-- titolo della sezione -->
+            <!-- titolo della sezione News -->
             <div class="row">
                 <div class="col-12">
                     <span class="my-title-span-green">OUR EDITORIAL CONTENT</span>
@@ -14,13 +14,23 @@
                 </div>
             </div>
 
-            <!-- cards della sezione -->
+            <!-- riga con le cards -->
             <div class="row row-cols-3">
+                
                 <!-- card left -->
                 <div class="col">
                     <div class="my-card card-left bg-dark position-relative">
                         <div class="my-opacity-container">
-                            <h5 class=" text-white text-center m-5">Increasing creativity is possible for everyone</h5>
+                            <div class="mx-5 text-hover-top">
+                                <i class="fas fa-user mx-2"></i>
+                                <span class="me-3">Codings</span>
+                                <i class="fas fa-clock me-2"></i>
+                                <span>1 years</span>
+                            </div>
+                            <div class="text-hover-bottom">
+                                <h5 class=" text-white text-center mx-5 mb-3">Increasing creativity is possible for everyone</h5>
+                                <p class="text-center mx-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -29,7 +39,16 @@
                 <div class="col">
                     <div class="my-card card-center bg-dark position-relative">
                         <div class="my-opacity-container">
-                            <h5 class=" text-white text-center m-5">Because market research is part of the business plan</h5>
+                            <div class="mx-5 text-hover-top">
+                                <i class="fas fa-user mx-2"></i>
+                                <span class="me-3">Codings</span>
+                                <i class="fas fa-clock me-2"></i>
+                                <span>1 years</span>
+                            </div>
+                            <div class="text-hover-bottom">
+                                <h5 class=" text-white text-center mx-5 mb-3">Because market research is part of the business plan</h5>
+                                <p class="text-center mx-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -38,7 +57,16 @@
                 <div class="col">
                     <div class="my-card card-right bg-dark position-relative">
                         <div class="my-opacity-container">
-                            <h5 class=" text-white text-center m-5">Working from home is now a trend</h5>
+                            <div class="mx-5 text-hover-top">
+                                <i class="fas fa-user mx-2"></i>
+                                <span class="me-3">Codings</span>
+                                <i class="fas fa-clock me-2"></i>
+                                <span>1 years</span>
+                            </div>
+                            <div class="text-hover-bottom">
+                                <h5 class=" text-white text-center mx-5 mb-3">Working from home is now a trend</h5>
+                                <p class="text-center mx-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -63,6 +91,7 @@ export default {
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
+            overflow: hidden;
             .my-opacity-container{
                 height: 100%;
                 width: 100%;
@@ -73,7 +102,31 @@ export default {
                 display: flex;
                 flex-direction: column;
                 justify-content: end;
+                .text-hover-top{
+                    position: absolute;
+                    top: -30px;
+                    left: 0;
+                    i{
+                        color: $my-color-edward;
+                    }
+                }
+                .text-hover-bottom{
+                    position: absolute;
+                    bottom: -50px;
+                    left: 0;
+                }
             }
+        }
+        .my-card:hover{
+            background-size: inherit;
+        }
+        .my-card:hover .text-hover-top{
+            transform: translatey(60px);
+            transition-duration: 0.5s;
+        }
+        .my-card:hover .text-hover-bottom{
+            transform: translate(-0, -50%);
+            transition-duration: 0.5s;
         }
         .card-left{
             background-image: url('../assets/img/news-1.jpg');
