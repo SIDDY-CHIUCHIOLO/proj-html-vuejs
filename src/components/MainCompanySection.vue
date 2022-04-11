@@ -1,5 +1,5 @@
 <template>
-    <section class="my-height-80vh d-flex position-relative align-items-center">
+    <section class="d-flex position-relative align-items-center">
         <div class="my-container">
             <div class="row w-50">
                 <div class="col-12">

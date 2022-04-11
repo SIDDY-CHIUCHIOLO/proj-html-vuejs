@@ -1,11 +1,11 @@
 <template>
-    <section class="d-flex align-items-center">
+    <section class="d-flex">
         <div class="my-container">
             <div class="row row-cols-3">
 
                 <div class="col">
                     <div class="my-card bg-white">
-                        <i class="fas fa-user-friends"></i>
+                        <i class="fas fa-user-friends my-icon-green"></i>
                         <h5 class="card-title mb-3 text-dark">Human Capital</h5>
                         <p class="card-text">Humanizing business: Hearness the power of technology to improve the way people work.</p>
                     </div>
@@ -13,7 +13,7 @@
 
                 <div class="col">
                     <div class="my-card bg-white">
-                        <i class="fas fa-chart-pie"></i>
+                        <i class="fas fa-chart-pie my-icon-green"></i>
                         <h5 class="card-title mb-3 text-dark">Core Business</h5>
                         <p class="card-text">It takes innovative approaches to taransform, modernize, and run existing platform.</p>
                     </div>
@@ -21,7 +21,7 @@
 
                 <div class="col">
                     <div class="my-card bg-white">
-                        <i class="fas fa-tachometer-alt"></i>
+                        <i class="fas fa-tachometer-alt my-icon-green"></i>
                         <h5 class="card-title fw-bold mb-3 text-dark">Performance</h5>
                         <p class="card-text">Archieving maximum impact and value from investments in finance and supply chain.</p>
                     </div>
@@ -44,13 +44,6 @@ export default {
 
 section{
     background-color: $my-color-gray-nurse;
-    height: 60vh;
     width: 100%;
-    i{
-        color: $my-color-blue-lagoon;
-        background-color: $my-color-gray-nurse;
-        border-radius: 50%;
-        padding: 12px 10px;
-    }
 }
 </style>

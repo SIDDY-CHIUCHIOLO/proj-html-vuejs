@@ -1,0 +1,25 @@
+<template>
+    <footer>
+        <FooterTop/>
+        <FooterBottom/>
+    </footer>
+</template>
+
+<script>
+import FooterTop from './FooterTop.vue'
+import FooterBottom from './FooterBottom.vue'
+
+
+export default {
+    name: 'indexFooter',
+    components:{
+        FooterTop,
+        FooterBottom
+    }
+
+}
+</script>
+
+<style>
+
+</style>

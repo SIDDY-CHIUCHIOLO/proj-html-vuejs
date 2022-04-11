@@ -1,5 +1,5 @@
 <template>
-<div id="my-header-jumbotron" class="my-height-90vh">
+<div id="my-header-jumbotron">
     <!-- opacity -->
     <div class="my-opacity-container my-full-height w-100">
         <div class="my-container my-full-height position-relative">
@@ -15,7 +15,7 @@
                                     <span>{{element.text}}</span>
                                 </a>
                             </li>
-                            <button class="my-bg-green">GET IN TOUCH</button>
+                            <button class="my-bg-green text-white">GET IN TOUCH</button>
                         </ul>
                     </nav>
                 </div>
@@ -26,8 +26,8 @@
                 <div class="col-7">
                     <h1 class="fw-bold mb-4">Lead ~ <span class="my-bg-opacity-green p-2">Customer</span></h1>
                     <p class="mb-4 my-text-lightgrey">Successful strategies require data analysis, creativity and customer focus, taking advantage of the latest technologies to offer excellent services.</p>
-                    <button class="my-bg-green me-4">GET IN TOUCH</button>
-                    <button class="bg-transparent">READ MORE</button>
+                    <button class="my-bg-green me-4 text-white">GET IN TOUCH</button>
+                    <button class="bg-transparent text-white">READ MORE</button>
                 </div>
             </div>
             
@@ -76,6 +76,7 @@ export default {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
+        height: 90vh;
         div{
             div.row{
                 nav{

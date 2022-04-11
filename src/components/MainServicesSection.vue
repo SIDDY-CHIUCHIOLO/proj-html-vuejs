@@ -1,5 +1,5 @@
 <template>
-    <section class="py-5">
+    <section>
         <div class="my-container">
 
             <!-- titolo della sezione -->
@@ -12,7 +12,7 @@
                     <p class="mb-5">We are leaders in providing consultancy with a set of cutting-edge technologies and a team of experienced and renowned professionals. These are some options that you can hire</p>
                 </div>
                 <div class="col-2">
-                    <button class="bg-transparent">SEE ALL</button>
+                    <button class="bg-transparent text-white">SEE ALL</button>
                 </div>
             </div>
 
@@ -92,6 +92,9 @@ export default {
         background-color: $my-color-woodsmoke;
         .my-card{
             background-color: $my-color-shark;
+            button{
+                color: white;
+            }
         }
     }
 </style>

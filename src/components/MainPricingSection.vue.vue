@@ -1,5 +1,5 @@
 <template>
-    <section class="py-5">
+    <section>
         <div class="my-container">
             <!-- titolo della sezione -->
             <div class="row text-center justify-content-center">
